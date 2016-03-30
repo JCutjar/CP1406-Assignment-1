@@ -1,54 +1,98 @@
 @charset "utf-8";
 
 body {
-	min-width: 0px;
-	background-color: white
-	
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-image: url(images/book-fair-678264_1280.jpg);
+	background-size: cover;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	position: relative;
 }
-
-
-body ul {
+	
+	
+body #nav ul {
+	font-size: 100%;
 	list-style-type: none;
 	margin: 0;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
+	padding: 1%;
 	overflow: hidden;
-	background-color: #FFFFFF;
 	position: fixed;
 	top: 0;
-	width: 100%;	
-	
+	left: 0px;
+	width: 100%;
+	height: 3%;
+	background-color: #A7D2CB;
+	background-repeat: no-repeat;	
 }
 
 
-body ul li {
-	float: left;
-	padding-left: 140px;
-	padding-right: 130px;	
+body #nav ul li {
+	float: right;
+	padding-left: 0%;
+	padding-right: 3%;		
 }
 
 
-li a:hover {
+#nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+
+ul li a:hover {
 	text-decoration: underline;
-	background-color: #46F0DE;
-	
+}
+
+
+.cossieplay-logo {
+	margin-left: 3%;
+	margin-top: 0.5%;
+	padding: 0.3%;
+	position: absolute;
+	top: 0%;
+	left: 0px;
+	float: left;
+	font-size: 120%;
+	border: medium solid #000000;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+
+.cossieplay-logo:hover {
+	text-decoration: underline;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: black;	
+}
+
+
+a:visited {
+	text-decoration: none;
+	color: black;
 }
 
 
 .active {
-	text-decoration: underline
-	background-color: #46F0DE;
-	
+	text-decoration: underline;
 }
 
 
-ul li a {
-    display: block;
-    color: black;
-	text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	
+#spacer{
+	margin-top: 4%;	
+}
+
+
+.page-section {
+	background-color: white	
+}
+
+.center {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
