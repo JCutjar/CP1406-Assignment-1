@@ -1,26 +1,44 @@
 @charset "utf-8";
 
 body {
-	background-color: #FFFFFF;
+	background-color: pink;
 	background-repeat: no-repeat;
-	background-image: url(images/book-fair-678264_1280.jpg);
 	background-size: cover;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	position: relative;
 }
-	
+
+.cossieplay-logo {
+	margin-left: 3%;
+	margin-top: 0.5%;
+	padding: 0.3%;	
+	padding-left: 2%;
+	padding-right: 2%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	float: left;
+	font-size: 120%;
+	border: medium solid #000000;
+}
+
+
+.cossieplay-logo:hover {
+	text-decoration: underline;
+}
+
 	
 body #nav ul {
 	font-size: 100%;
 	list-style-type: none;
 	margin: 0;
 	padding: 1%;
+	width: 100%;
+	height: 3%;	
+	top: 0;
+	left: 0%;
 	overflow: hidden;
 	position: fixed;
-	top: 0;
-	left: 0px;
-	width: 100%;
-	height: 3%;
 	background-color: #A7D2CB;
 	background-repeat: no-repeat;	
 }
@@ -36,31 +54,11 @@ body #nav ul li {
 #nav ul li a {
     display: block;
     text-align: center;
-    padding: 0px 0px;
+    padding: 0% 0%;
 }
 
 
 ul li a:hover {
-	text-decoration: underline;
-}
-
-
-.cossieplay-logo {
-	margin-left: 3%;
-	margin-top: 0.5%;
-	padding: 0.3%;
-	position: absolute;
-	top: 0%;
-	left: 0px;
-	float: left;
-	font-size: 120%;
-	border: medium solid #000000;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-
-
-.cossieplay-logo:hover {
 	text-decoration: underline;
 }
 
@@ -83,16 +81,95 @@ a:visited {
 
 
 #spacer{
-	margin-top: 4%;	
+	margin-top: 6%;	
 }
 
 
 .page-section {
-	background-color: white	
-}
-
-.center {
-	width: 75%;
+	background-color: white;
+	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 1%;
+}
+
+
+.center {
+	height: auto;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.call-buttons {
+	align-t: center;
+}
+
+#sewing-button {
+	float: left;	
+}
+
+
+.sewing-image {
+	width: 45%;
+	height: auto;
+}
+
+
+#party-button {
+	float: right;	
+}
+
+
+.party-image {
+	float: right;
+	width: 45%;
+	height: auto;	
+}
+
+
+#announcements {
+	text-align: center;	
+}
+
+
+body footer {
+	padding: 1%;
+	padding-bottom: 0.2%;
+	bottom: 0%;
+	position: fixed;	
+	width: 100%;
+	height: 3%;	
+	left: 0%;
+	text-align: right;
+	font-size: 100%;
+	overflow: hidden;
+	background-color: #A7D2CB;
+	background-repeat: no-repeat;
+}
+
+
+body footer a {
+	padding-right: 3%;
+}
+
+
+body footer a:hover{
+	text-decoration: underline;
+}
+
+
+#contact-info {
+	background-color: white;	
+}
+
+
+#party-info {
+	background-color: white;	
+}
+
+
+#gallery {
+	background-color: white;
 }
